@@ -41,7 +41,7 @@ async def start_(client: Client, message: Message):
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀᴅɪᴛʏᴀ ʜᴀʟᴅᴇʀ](https://t.me/adityahalder)
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [ʙɪᴋᴀsʜ ʜᴀʟᴅᴇʀ](https://t.me/Bikashhalder)
 ┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀᴅɪᴛʏᴀ sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ sᴜᴘᴘᴏʀᴛ : [BGT CHAT](https://t.me/Bgt_chat)
+┣★ sᴜᴘᴘᴏʀᴛ : [ʙɢᴛ ᴄʜᴀᴛ](https://t.me/Bgt_chat)
 ┣★ sᴏᴜʀᴄᴇ › : [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/iambikashhalder/bikashmusicx)
 ┗━━━━━━━━━━━━━━━━━┛
 
@@ -60,7 +60,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "aditya"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "Bikash"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/4cf7f89bbaaf5087f5cd0.png",
